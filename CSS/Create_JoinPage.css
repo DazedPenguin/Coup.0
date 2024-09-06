@@ -1,0 +1,123 @@
+
+body {
+
+  font-family: Open Sans, Arial;
+  background-color: rgba(119, 57, 0, 0.651);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* CSS for initial page to create a new game or join an existing game */
+
+
+#create-or-join{
+
+  background-color: rgba(45, 106, 12, 0.723);
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  border-radius: 20px;
+  height: 700px;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+#type-username{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#username-input {
+
+  width: 30%;
+  height: 25%;
+  padding: 7px;
+  font-size: large;
+  border-radius: 5px;
+  border: goldenrod 2px solid;
+  background-color: cadetblue;
+  color: white;
+
+}
+
+#username-input::placeholder,
+.game-code-input::placeholder{
+  color: rgba(255, 255, 255, 0.401);
+}
+
+#username-label {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.join-game-header,
+#username-label {
+
+  color: azure;
+  font-weight: 500;
+  border: none;
+  font-size: 50px;
+
+}
+
+.game-code-input{
+
+  width: 30%;
+  height: 5%;
+  padding: 7px;
+  font-size: large;
+  border-radius: 5px;
+  border: goldenrod 2px solid;
+  background-color: cadetblue;
+
+}
+
+
+.initialise-button {
+
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  width: 10%;
+  height: 8%;
+  padding: 5px;
+  border: none;
+  transition: background-color 0.3s;
+
+}
+
+.initialise-button:hover{
+
+  cursor: pointer;
+  background-color: rgba(0, 146, 199, 0.576);
+  color: white;
+
+}
+
+
+/* CSS for the waiting section if you have joined a game */
+
+#waiting-section {
+
+  background-color: rgba(45, 106, 12, 0.723);
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  border-radius: 20px;
+  height: 500px;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.5);
+
+
+}
