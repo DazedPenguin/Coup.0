@@ -2,7 +2,7 @@
 body {
 
   font-family: Open Sans, Arial;
-  background-color: rgba(119, 57, 0, 0.651);
+  background-color: rgba(82, 50, 21, 0.651);
   margin: 0;
   height: 100vh;
   display: flex;
@@ -10,6 +10,21 @@ body {
   align-items: center;
 
 }
+
+h2{
+
+  font-size: 30px;
+  color: white;
+  font-weight: 400;
+
+}
+
+p{
+
+  margin: 0;
+
+}
+
 
 
 /* CSS for initial page to create a new game or join an existing game */
@@ -119,5 +134,81 @@ body {
   flex-direction: column;
   box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.5);
 
+
+}
+
+
+.players-list {
+
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 100%;
+  gap: 10px;
+  width: 90%;
+  height: 60%;
+  padding: 5px;
+ 
+
+}
+
+
+.players{
+
+  padding-left: 15px;
+  background-color: rgba(224, 125, 54, 0.9);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  
+ 
+}
+
+
+
+
+.remove-player{
+
+
+  background-color: darkred;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  color: white;
+  font-size: 10px;
+  margin-left: 82%;
+
+}
+
+.remove-player:hover{
+
+  cursor: pointer;
+  background-color: red;
+  
+}
+
+.start-button{
+
+  margin-top: 0;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  width: 10%;
+  height: 10%;
+  padding: 5px;
+  border: none;
+  transition: background-color 0.3s;
+
+}
+
+.start-button:hover{
+
+  cursor: pointer;
+  background-color: rgba(0, 146, 199, 0.576);
+  color: white;
 
 }
