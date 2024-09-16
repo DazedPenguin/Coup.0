@@ -122,7 +122,7 @@ p{
 
 /* CSS for the waiting section if you have joined a game */
 
-#waiting-section {
+.waiting-section {
 
   background-color: rgba(45, 106, 12, 0.723);
   width: 60%;
@@ -164,11 +164,23 @@ p{
  
 }
 
+/* Host functionalities to start game/remove players */
 
 
+.warning-hidden{
+
+  color: darkred;
+  opacity: 0;
+
+}
+
+.warning-shown{
+
+  color: darkred;
+  opacity: 1;
+}
 
 .remove-player{
-
 
   background-color: darkred;
   height: 10px;
@@ -199,9 +211,11 @@ p{
   border-radius: 5px;
   width: 10%;
   height: 10%;
-  padding: 5px;
+  padding: 3px;
   border: none;
   transition: background-color 0.3s;
+  margin-bottom: 20px;
+  margin-top: 10px;
 
 }
 
